@@ -13,6 +13,35 @@ class App extends Component {
             <p>sarang@edxengine.com</p>
             <p>+91 9876543210</p>
           </div>
+          <div className="resume">
+            <h3>Sidebar Resume</h3>
+            <div className="box">
+              <div className="element">
+                <div className="circle"></div>
+                <div className="value">Summary</div>
+              </div>
+              <div className="element">
+                <div className="circle"></div>
+                <div className="value">Education</div>
+              </div>
+              <div className="element">
+                <div className="circle"></div>
+                <div className="value">Projects</div>
+              </div>
+              <div className="element">
+                <div className="circle"></div>
+                <div className="value">Extra curricular activities</div>
+              </div>
+              <div className="element">
+                <div className="circle"></div>
+                <div className="value">EdXengine leaderboard scores</div>
+              </div>
+              <div className="element">
+                <div className="circle"></div>
+                <div className="value">Verified skill set</div>
+              </div>
+            </div>
+          </div>
         </div>
         <div className="App-main">
         </div>

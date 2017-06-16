@@ -22,6 +22,7 @@
   margin: 0;
   position: relative;
   top: 0;
+  text-align: center;
   content: ''; }
 
 .App-sidebar .image {
@@ -31,6 +32,34 @@
   display: block;
   margin: 0 auto;
   padding: 15px 0 15px; }
+
+.App-sidebar .resume {
+  margin-top: 30px; }
+
+.App-sidebar .resume .box {
+  border-left: thin solid black;
+  margin-left: 30px;
+  position: relative; }
+
+.App-sidebar .resume .box .element {
+  text-align: left;
+  display: block;
+  position: relative;
+  left: -23px;
+  padding: 15px 0; }
+
+.App-sidebar .resume .box .element .circle {
+  width: 15px;
+  height: 15px;
+  background-color: white;
+  border-radius: 50%;
+  border: thin solid black;
+  content: '';
+  display: inline-block;
+  margin: 0 15px; }
+
+.App-sidebar .resume .box .element .value {
+  display: inline-block; }
 
 .App-main {
   width: calc(100% - 400px);
