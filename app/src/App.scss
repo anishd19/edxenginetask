@@ -1,0 +1,28 @@
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+// body {
+//   background: floralwhite;
+// }
+
+.App-sidebar {
+  width: 400px;
+  min-height: 100vh;
+  display: inline-block;
+  background: -webkit-linear-gradient(white, pink); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(white, pink); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(white, pink); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(white, pink); /* Standard syntax */
+  border-right: thin solid lighten(black, 80);
+  margin: 0;
+}
+
+.App-main {
+  width: calc(100% - 400px);
+  min-height: 100vh;
+  display: inline-block;
+  margin: 0;
+}
