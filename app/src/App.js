@@ -7,8 +7,11 @@ class App extends Component {
     return (
       <div className="App">
         <div className="App-sidebar">
-          <div>
+          <div className="image">
             <img src={profile_picture}/>
+            <h3>Sarangarajan Vijayraghavan Iyengar</h3>
+            <p>sarang@edxengine.com</p>
+            <p>+91 9876543210</p>
           </div>
         </div>
         <div className="App-main">

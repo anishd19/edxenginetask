@@ -24,7 +24,10 @@
   top: 0;
   content: ''; }
 
-.App-sidebar img {
+.App-sidebar .image {
+  text-align: center; }
+
+.App-sidebar .image img {
   display: block;
   margin: 0 auto;
   padding: 15px 0 15px; }
