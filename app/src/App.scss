@@ -8,6 +8,10 @@
 //   background: floralwhite;
 // }
 
+.App {
+  position: relative;
+}
+
 .App-sidebar {
   width: 400px;
   min-height: 100vh;
@@ -18,6 +22,14 @@
   background: linear-gradient(white, pink); /* Standard syntax */
   border-right: thin solid lighten(black, 80);
   margin: 0;
+  position: relative;
+  top:0;
+  content: '';
+  img {
+    display: block;
+    margin: 0 auto;
+    padding: 15px 0 15px;
+  }
 }
 
 .App-main {
@@ -25,4 +37,8 @@
   min-height: 100vh;
   display: inline-block;
   margin: 0;
+  background-color: floralwhite;
+  position: absolute;
+  top:0;
+  content: '';
 }

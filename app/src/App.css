@@ -3,6 +3,9 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
 
+.App {
+  position: relative; }
+
 .App-sidebar {
   width: 400px;
   min-height: 100vh;
@@ -16,10 +19,22 @@
   background: linear-gradient(white, pink);
   /* Standard syntax */
   border-right: thin solid #cccccc;
-  margin: 0; }
+  margin: 0;
+  position: relative;
+  top: 0;
+  content: ''; }
+
+.App-sidebar img {
+  display: block;
+  margin: 0 auto;
+  padding: 15px 0 15px; }
 
 .App-main {
   width: calc(100% - 400px);
   min-height: 100vh;
   display: inline-block;
-  margin: 0; }
+  margin: 0;
+  background-color: floralwhite;
+  position: absolute;
+  top: 0;
+  content: ''; }

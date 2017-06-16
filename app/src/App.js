@@ -1,16 +1,17 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
+import profile_picture from './images/profile_picture.png'
 
 class App extends Component {
   render() {
     return (
       <div className="App">
         <div className="App-sidebar">
-          <h2>Welcome to React</h2>
+          <div>
+            <img src={profile_picture}/>
+          </div>
         </div>
         <div className="App-main">
-          <h2>Welcome to React</h2>
         </div>
       </div>
     );
